@@ -1,0 +1,447 @@
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+ nav {
+     width: 100vw;
+     direction: rtl;
+
+
+ }
+
+ .navbar-brand {
+     position: absolute;
+     left: 80px;
+     font: normal normal normal 30px/60px Satisfy;
+ }
+
+ nav>div>img {
+     position: absolute;
+     left: 0;
+     width: 50px;
+     height: 50px;
+ }
+
+ li {
+     margin-left: 50px;
+ }
+
+ section {
+     width: 100%;
+     height: 60vh;
+     background-color: #00ccff63;
+     direction: rtl;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 15px;
+ }
+
+ .pro-case {
+     width: 60vw;
+     display: flex;
+     flex-direction: column;
+
+     align-items: center;
+ }
+
+ .myproject {
+     font: normal normal 900 80px/118px Heebo;
+     text-align: center;
+     color: #3A3A3A;
+     width: 473px;
+     height: 118px
+ }
+
+ .paragraph {
+     font-size: 20px;
+     font-weight: 600;
+     color: #3A3A3A;
+     text-align: center;
+     font: normal normal medium 20px/30px Heebo;
+ }
+
+ .img-div {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 100%;
+     height: 130px;
+ }
+
+ .imgs {
+     display: flex;
+     justify-content: center;
+     gap: 25px;
+     flex-wrap: wrap;
+     width: 100vw;
+     height: 100px;
+
+ }
+
+
+
+ .myinfo {
+     width: 100%;
+     /* height: 100vh; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .myinfo2 {
+     width: 60vw;
+     /* height: 80vh; */
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+ }
+
+ .myimg {
+     width: 141px;
+     height: 139px;
+ }
+
+
+
+ .aboutme {
+     color: #3A3A3A;
+     text-align: right;
+     font: normal normal 900 35px/52px Heebo;
+ }
+
+
+
+ .aboutme-p {
+     text-align: center;
+     font: normal normal normal 20px/29px Heebo;
+     letter-spacing: 0px;
+     color: #3A3A3A;
+ }
+
+
+
+ .myinfobutton {
+     width: 260px;
+     height: 41px;
+     background: #1AE0EC;
+     border-radius: 25px;
+     color: #3A3A3A;
+     font: normal normal bold 20px/30px Heebo;
+ }
+
+
+
+ .mywork {
+     width: 100%;
+     height: 1100PX;
+     display: flex;
+     justify-content: center;
+     /* align-items: center; */
+ }
+
+ .mywork1 {
+     width: 70vw;
+     height: 80%;
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-top: 100px;
+ }
+
+ .workhead {
+     width: 30vw;
+     height: 150px;
+     margin: 0 auto;
+ }
+
+ .workhead>h1 {
+     font: normal normal 900 36px/53px Heebo;
+     color: #3A3A3A;
+ }
+
+ .workhead>p {
+     text-align: center;
+     font: normal normal normal 20px/29px Heebo;
+     color: #3A3A3A;
+
+ }
+
+
+ .main-card {
+     width: 90%;
+     height: 70%;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     gap: 10px;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .card {
+     width: 250px;
+     height: 350px;
+     background-color: aliceblue;
+     box-shadow: 0px 0px 15px 15px #00000029;
+     border-radius: 10px;
+
+
+
+ }
+
+ .iconimg {
+     width: 122px;
+     height: 26px;
+     margin: 0 auto;
+
+ }
+
+ .iconimg>img {
+     width: 27px;
+     height: 26px;
+ }
+
+ .myworkimg {
+     width: 100%;
+     height: 150px;
+     border-radius: 10px 10px 0px 0px;
+
+ }
+
+ .myworkimg>img {
+     width: 100%;
+     height: 150px;
+
+ }
+
+ .h2>h2 {
+
+     text-align: center;
+     font: normal normal medium 23px/34px Heebo;
+
+     color: #3A3A3A;
+ }
+
+ .h2>p {
+     text-align: center;
+     font: normal normal normal 16px/24px Heebo;
+     color: #3A3A3A;
+ }
+
+ .card-butt {
+     width: 150px;
+     height: 30px;
+     background: #1AE0EC;
+     border-radius: 15px;
+     margin: 0 auto;
+     margin-bottom: 15px;
+ }
+
+
+
+ .contact {
+     width: 100%;
+     height: 950px;
+     background-image: url(../projectimg/HomePage-WEB/Rectangle\ 41.png);
+     background-repeat: no-repeat;
+     background-color: #3A3A3A;
+     display: flex;
+     flex-direction: column;
+     justify-content: end;
+     align-items: end;
+ }
+
+ .form {
+     width: 549px;
+     height: 646px;
+     /* position: relative;
+     top: 200px;
+     left: 950px;*/
+     margin-right: 50px;
+     direction: rtl;
+ }
+
+ .form>h3 {
+     font: normal normal 900 36px/53px Heebo;
+     color: #FFFFFF
+ }
+
+ .form>p {
+     font: normal normal normal 20px/29px Heebo;
+     color: #FFFFFF;
+ }
+
+ form {
+     display: flex;
+     flex-direction: column;
+ }
+
+ form>input {
+     height: 50px;
+     border: none;
+     border-bottom: 3px solid #1AE0EC;
+ }
+
+ textarea {
+     border: none;
+     border-bottom: 3px solid #1AE0EC;
+ }
+
+ label {
+     font: normal normal bold 16px/24px Heebo;
+     color: #FFFFFF;
+ }
+
+ .form-button {
+     margin-top: 15px;
+     width: 166px;
+     height: 50px;
+     border-radius: 25px;
+     background-color: #1AE0EC;
+     font: normal normal bold 22px/30px Heebo;
+     letter-spacing: 0.33px;
+     color: #2C2C2C;
+ }
+
+
+
+ .footer {
+     width: 100%;
+     height: 150px;
+     background-color: #1AE0EC;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     justify-content: space-evenly;
+ }
+
+
+
+ .footer>div {
+
+     width: 74px;
+     height: 81px;
+ }
+
+ .footer>div>img {
+     margin-left: 15px;
+     width: 41px;
+     height: 41px;
+ }
+
+ .footer>div>p {
+     text-align: center;
+     font: normal normal normal 14px/16px Helvetica Neue;
+     color: #2C2C2C;
+     margin-top: 15px;
+
+ }
+
+
+ .lastfooter {
+     width: 100%;
+     height: 51px;
+     background-color: #000000;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+
+
+ }
+
+ .lastfooter>p {
+     display: block;
+     font: normal normal 300 20px/29px Heebo;
+     color: #1AE0EC;
+ }
+
+
+ @media screen and (max-width:1250px) {
+     .myproject {
+         font: normal normal 900 46px/67px Heebo;
+     }
+
+     .paragraph {
+         font: normal normal medium 15px/25px Heebo;
+     }
+
+
+     .imgs>img {
+         width: 46px;
+         height: 45px;
+     }
+
+     .myimg {
+         width: 141px;
+         height: 139px;
+     }
+
+     .aboutme {
+         font: normal normal 900 25px/37px Heebo;
+     }
+
+     .aboutme-p {
+         font: normal normal normal 15px/22px Heebo;
+     }
+
+     .myinfo {
+         width: 100vw;
+         /* height: 70vh; */
+     }
+
+     .mywork {
+         width: 100VW;
+         height: 2700px;
+     }
+
+     .mywork1 {
+         width: 70%;
+         height: 90%;
+         justify-content: flex-start;
+
+
+     }
+
+     .workhead {
+         width: 100%;
+         height: 10%;
+     }
+
+     .contact {
+         width: 100vw;
+         background-size: 70%;
+     }
+
+     .form {
+         width: 80%;
+     }
+
+     .footer {
+         height: 400px;
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         justify-content: right;
+
+     }
+
+     .footer>div>img {
+         width: 100px;
+         height: 88px;
+     }
+
+
+
+
+
+
+
+ }
