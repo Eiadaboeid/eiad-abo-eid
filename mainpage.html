@@ -11,6 +11,7 @@
         rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="mainpage1.js" defer></script>
     <title>main page</title>
     <style>
 
@@ -52,11 +53,14 @@
 
     <section>
         <div class="pro-case">
-            <h1 class="myproject">תיק עבודות</h1>
-            <p class="paragraph">לורם איפסום או בקיצור ליפסום, הוא מלל מקובל וחסר משמעות המשמש “ממלא מקום” בעת עריכה,
-                בתחום
-                הדפוס, ההדפסה והפרסום. למשל:
-                לורםלורם איפסום או בקיצור לי.</p>
+            <h1 class="myproject my-journy"><span style="color: aliceblue;
+    font-size: 70px;
+    font-weight: 600;">MY</span> journy to be
+            </h1>
+            <h1 class="myproject">Full stack developer</h1>
+            <p class="paragraph">Meet E.A , the creative wizard of the digital world! With a passion for crafting
+                seamless experiences, E.A brings
+                together the best of both frontend finesse and backend brilliance as a full-stack developer</p>
 
         </div>
     </section>
@@ -78,26 +82,29 @@
         </div>
     </div>
 
+    <!-- <div class="grade">
+        <p>70%</p>
+        <p>70%</p>
+        <p>10%</p>
+        <p>0%</p>
+        <p>0%</p>
+        <p>0%</p>
+        <p>0%</p>
+        <p>0%</p>
+        <p>0%</p>
+        <p>0%</p>
+        <p>0%</p>
+    </div> -->
 
 
     <div class="myinfo" id="aboutMe">
         <div class="myinfo2">
             <img class="myimg" src="projectimg/profile-image.png" alt="">
-            <h1 class="aboutme">קצת עלי</h1>
-            <p class="aboutme-p">לורם איפסום או בקיצור ליפסום, הוא מלל מקובל וחסר משמעות המשמש “ממלא מקום” בעת עריכה,
-                בתחום הדפוס, ההדפסה
-                והפרסום. למשל:
-                לורםלורם איפסום או בקיצור ליפסום, הוא מלל מקובל וחסר משמעות . <br> לורם איפסום או בקיצור
-                ליפסוםהמשמש.לורם
-                איפסום
-                או בקיצור
-                ליפסום, הוא מלל מקובל וחסר משמעות . משמש “ממלא מקום” בעת עריכה, בתחום הדפוס, ההדפסה והפרסום. למשל:
-                לורםלורם
-                איפסום או
-                בקיצור ליפסום, הוא מלל מקובל וחסר משמעות . לורם איפסום או בקיצור ליפסוםהמשמש <br> לורם איפסום או בקיצור
-                ליפסום,
-                הוא מלל
-                מקובל.</p>
+            <h1 class="aboutme">About me</h1>
+            <p class="aboutme-p">With dedication, passion, and a thirst for knowledge, you're well on your way to
+                becoming an exceptional full-stack
+                developer. So, roll up your sleeves, fire up your code editor, and let's embark on this exciting
+                adventure together!</p>
             <input class="myinfobutton" type="submit" value="להורדת קורות חיים">
         </div>
     </div>
@@ -105,14 +112,17 @@
 
 
 
-    <div class="mywork" id="workPic">
-        <div class="mywork1">
-            <div class="workhead">
-                <h1>עבודות נבחרות</h1>
-                <p>לורם איפסום או בקיצור ליפסום, הוא מלל מקובל וחסר משמעות המשמש “ממלא מקום” בעת עריכה, בתחום.</p>
-            </div>
+    <div class="mywork hi" id="workPic">
 
-            <div class="main-card">
+        <div class="workhead">
+            <h1>Html and css projects</h1>
+            <p>Welcome to my first html and css projects here you can see my beginning of my journy whith html and
+                css
+            </p>
+            <button class="show-b" onclick="showProjet()">show html projects </button>
+        </div>
+        <div class="mywork1">
+            <div class="main-card hide" id="m">
                 <div class="card">
                     <div class="myworkimg">
 
@@ -239,8 +249,159 @@
             </div>
         </div>
     </div>
+    <div class="js-Container">
+        <div class="jsHead">
+            <h1>Javascript projects</h1>
+            <p>Welcome to my first javascript projects here you can see my the beginning of my journy whith javascript
+            </p>
+            <button onclick="jsShow()">javascript projicts</button>
+        </div>
+        <div class="m-card" id="m-card1">
+            <div class=" card">
+                <div class="myworkimg">
+
+                    <img src="projects/‏‏js-preview7/js-image/wc-i.jpeg" alt="">
+
+                </div>
+                <div class="h2">
+                    <h2>countries name</h2>
+
+                    <p>לורם איפסום או בקיצור ליפסום, הוא מלל מקובל וחסר משמעות המשמש “ממלא מקום” בעת עריכה,</p>
+                </div>
+                <div class="iconimg">
+                    <img src="projectimg/img-HTML.png" alt="">
+                    <img src="projectimg/cssimg.png" alt="">
+                    <img src="projectimg/bootimg.png" alt="">
+                    <img src="projectimg/sassimg.png" alt="">
+                </div>
+                <a href="projects/‏‏‏‏js-preview7/project-pic.html" target="_blank" rel="noopener noreferrer">
+                    <input class="card-butt" type="submit" value="לעמוד הפרויקט"></a>
+            </div>
+
+            <div class="card">
+                <div class="myworkimg">
+
+                    <img src="projects/js-preview1/js-image/page-build-img.jpeg" alt="">
+
+                </div>
+                <div class="h2">
+                    <h2>page builder</h2>
+
+                    <p>לורם איפסום או בקיצור ליפסום, הוא מלל מקובל וחסר משמעות המשמש “ממלא מקום” בעת עריכה,</p>
+                </div>
+                <div class="iconimg">
+                    <img src="projectimg/img-HTML.png" alt="">
+                    <img src="projectimg/cssimg.png" alt="">
+                    <img src="projectimg/bootimg.png" alt="">
+                    <img src="projectimg/sassimg.png" alt="">
+                </div>
+                <a href="projects/js-preview1/project-pic.html" target="_blank" rel="noopener noreferrer">
+                    <input class="card-butt" type="submit" value="לעמוד הפרויקט"></a>
+            </div>
+            <div class="card">
+                <div class="myworkimg">
+
+                    <img src="projects/‏‏js-preview2/js-image/memoy-i.jpeg" alt="">
+
+                </div>
+                <div class="h2">
+                    <h2>memory game</h2>
+
+                    <p>לורם איפסום או בקיצור ליפסום, הוא מלל מקובל וחסר משמעות המשמש “ממלא מקום” בעת עריכה,</p>
+                </div>
+                <div class="iconimg">
+                    <img src="projectimg/img-HTML.png" alt="">
+                    <img src="projectimg/cssimg.png" alt="">
+                    <img src="projectimg/bootimg.png" alt="">
+                    <img src="projectimg/sassimg.png" alt="">
+                </div>
+                <a href="projects/‏‏js-preview2/project-pic.html" target="_blank" rel="noopener noreferrer">
+                    <input class="card-butt" type="submit" value="לעמוד הפרויקט"></a>
+            </div>
+            <div class="card">
+                <div class="myworkimg">
+
+                    <img src="projects/‏‏jspreview3/jsimage/snake.jpeg" alt="">
+
+                </div>
+                <div class="h2">
+                    <h2>snake game</h2>
+
+                    <p>לורם איפסום או בקיצור ליפסום, הוא מלל מקובל וחסר משמעות המשמש “ממלא מקום” בעת עריכה,</p>
+                </div>
+                <div class="iconimg">
+                    <img src="projectimg/img-HTML.png" alt="">
+                    <img src="projectimg/cssimg.png" alt="">
+                    <img src="projectimg/bootimg.png" alt="">
+                    <img src="projectimg/sassimg.png" alt="">
+                </div>
+                <a href="projects/‏‏jspreview3/projectpic.html" target="_blank" rel="noopener noreferrer">
+                    <input class="card-butt" type="submit" value="לעמוד הפרויקט"></a>
+            </div>
+            <div class="card">
+                <div class="myworkimg">
+
+                    <img src="projects/‏‏js-preview4/js-image/tasks.jpeg" alt="">
+
+                </div>
+                <div class="h2">
+                    <h2>tasks manager</h2>
+
+                    <p>לורם איפסום או בקיצור ליפסום, הוא מלל מקובל וחסר משמעות המשמש “ממלא מקום” בעת עריכה,</p>
+                </div>
+                <div class="iconimg">
+                    <img src="projectimg/img-HTML.png" alt="">
+                    <img src="projectimg/cssimg.png" alt="">
+                    <img src="projectimg/bootimg.png" alt="">
+                    <img src="projectimg/sassimg.png" alt="">
+                </div>
+                <a href="projects/‏‏js-preview4/project-pic.html" target="_blank" rel="noopener noreferrer">
+                    <input class="card-butt" type="submit" value="לעמוד הפרויקט"></a>
+            </div>
+            <div class="card">
+                <div class="myworkimg">
+
+                    <img src="projects/‏‏js-preview5/js-image/weather-i.jpeg" alt="">
+
+                </div>
+                <div class="h2">
+                    <h2>the weather</h2>
+
+                    <p>לורם איפסום או בקיצור ליפסום, הוא מלל מקובל וחסר משמעות המשמש “ממלא מקום” בעת עריכה,</p>
+                </div>
+                <div class="iconimg">
+                    <img src="projectimg/img-HTML.png" alt="">
+                    <img src="projectimg/cssimg.png" alt="">
+                    <img src="projectimg/bootimg.png" alt="">
+                    <img src="projectimg/sassimg.png" alt="">
+                </div>
+                <a href="projects/‏‏js-preview5/project-pic.html" target="_blank" rel="noopener noreferrer">
+                    <input class="card-butt" type="submit" value="לעמוד הפרויקט"></a>
+            </div>
+            <div class="card">
+                <div class="myworkimg">
+
+                    <img src="projects/‏‏js-preview6/js-image/xo-i.jpeg" alt="">
+
+                </div>
+                <div class="h2">
+                    <h2>x o gmae</h2>
+
+                    <p>לורם איפסום או בקיצור ליפסום, הוא מלל מקובל וחסר משמעות המשמש “ממלא מקום” בעת עריכה,</p>
+                </div>
+                <div class="iconimg">
+                    <img src="projectimg/img-HTML.png" alt="">
+                    <img src="projectimg/cssimg.png" alt="">
+                    <img src="projectimg/bootimg.png" alt="">
+                    <img src="projectimg/sassimg.png" alt="">
+                </div>
+                <a href="projects/‏‏js-preview6/project-pic.html" target="_blank" rel="noopener noreferrer">
+                    <input class="card-butt" type="submit" value="לעמוד הפרויקט"></a>
+            </div>
 
 
+        </div>
+    </div>
 
     <div class="contact" id="Con">
         <div class="form">

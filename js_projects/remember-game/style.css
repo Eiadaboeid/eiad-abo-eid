@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    width: 850px;
+    height: 700px;
+    margin: 0 auto;
+    border-radius: 10px;
+
+
+}
+
+div {
+    float: left;
+    background: url(imgs/joker-28361_640.png);
+    background-position: center;
+    margin: 15px;
+
+
+}
+
+img {
+    cursor: pointer;
+    width: 250px;
+    height: 350px;
+    opacity: 0;
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    color: #ff0000;
+}
+
+button {
+    font-size: 25px;
+    position: relative;
+    left: 700px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+
+}
