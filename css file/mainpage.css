@@ -575,6 +575,20 @@
 
  }
 
+ @media screen and (max-width:710px) {
+     .firstword {
+         font-size: 35px;
+     }
+
+     .paragraph {
+         font-size: 13px;
+     }
+
+     .myproject {
+         font-size: 26px;
+     }
+ }
+
  @media screen and (max-width:450px) {
      .mywork {
          max-height: 2500px;
@@ -584,5 +598,11 @@
          max-height: 2300px;
      }
 
+     .paragraph {
+         font-size: 11px;
+     }
 
+     .myproject {
+         font-size: 20px;
+     }
  }

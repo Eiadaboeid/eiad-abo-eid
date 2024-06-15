@@ -39,7 +39,7 @@
  .mainsec {
      width: 100%;
      height: 50vh;
-     background-color: #13E8F163;
+     background-color: #dfc430;
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -63,12 +63,15 @@
  .mainsec>div>a>input {
      width: 153px;
      height: 30px;
-     background: #1AE0EC 0% 0% no-repeat padding-box;
+     background: #ffffff 0% 0% no-repeat padding-box;
      border-radius: 15px;
      opacity: 1;
 
  }
 
+ .mainsec>div>a>input:hover {
+     background-color: rgba(0, 0, 0, 0.7);
+ }
 
  .inputb {
      display: flex;
@@ -97,10 +100,9 @@
      background-color: #470d0d21;
      width: 70vw;
      height: 70vh;
-     /* background-image: url(projectimg/mywork1.jpeg); */
      background-size: cover;
      background-repeat: no-repeat;
-     box-shadow: 0px 0px 15px 15px #0051ff7c;
+     box-shadow: 0px 0px 15px 15px #dfc430;
 
  }
 
@@ -112,8 +114,8 @@
  .footer {
      width: 100%;
      height: 45px;
-     background-color: #000000;
-     color: #1AE0EC;
+     background-color: #dfc430;
+     color: rgba(0, 0, 0, 0.7);
      font: normal normal normal 20px/29px Heebo;
      display: flex;
      align-items: center;
