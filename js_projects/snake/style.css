@@ -64,3 +64,18 @@ h1 {
 #newGame {
     display: none;
 }
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}

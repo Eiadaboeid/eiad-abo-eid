@@ -39,6 +39,7 @@ function color() {
 }
 
 function move(dir) {
+
     if (isGameOver) {
         return;
     }
@@ -171,16 +172,12 @@ window.addEventListener("keydown", ev => {
     }
 });
 
-// window.addEventListener("keydown", ev => {
-//     ev.preventDefault();
+const upButton = document.querySelector("#up-button");
+const downButton = document.querySelector("#down-button");
+const leftButton = document.querySelector("#left-button");
+const rightButton = document.querySelector("#right-button");
 
-//     if (ev.key === "ArrowUp") {
-//         move("up");
-//     } else if (ev.key === "ArrowRight") {
-//         move("right");
-//     } else if (ev.key === "ArrowDown") {
-//         move("down");
-//     } else if (ev.key === "ArrowLeft") {
-//         move("left");
-//     }
-// });
+upButton.addEventListener("click", () => move("up"));
+downButton.addEventListener("click", () => move("down"));
+leftButton.addEventListener("click", () => move("left"));
+rightButton.addEventListener("click", () => move("right"));

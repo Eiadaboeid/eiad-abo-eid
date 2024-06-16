@@ -2,7 +2,7 @@ let countries = [];
 let countriesFull = [];
 
 const getDataThen = () => {
-    fetch("https://pokeapi.co/api/v2/pokemon?limit=200")
+    fetch("https://restcountries.com/v3.1/all")
         .then((res) => {
             if (!res.ok) {
                 throw new Error("Network response was not ok");
